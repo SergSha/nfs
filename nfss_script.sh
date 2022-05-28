@@ -7,7 +7,7 @@ yum -y install nfs-utils
 # Enable and start firewalld
 
 systemctl start firewalld
-systemctl enable firewalld -f
+systemctl enable firewalld
 
 # Add firewall rules
 
