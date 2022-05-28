@@ -32,7 +32,7 @@ chmod 0777 /srv/share/upload
 # Create a file /etc/exports
 
 cat << EOF > /etc/exports
-/srv/share 192.168.50.11/32(rw,sync,root_squash)
+/srv/share 192.168.50.11(rw,sync,root_squash)
 EOF
 
 # Export directory for share
